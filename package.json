@@ -1,0 +1,28 @@
+{
+  "name": "wdio-devtools-service-bug",
+  "version": "1.0.0",
+  "description": "demo bug",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sns45/wdio-service-devtools-bug-demo.git"
+  },
+  "author": "Shantanu Sharma",
+  "license": "ISC",
+  "devDependencies": {
+    "chai": "^4.1.2",
+    "chai-webdriverio": "^0.4.3",
+    "gulp": "^3.9.1",
+    "gulp-cli": "^2.0.0",
+    "path": "^0.12.7",
+    "wdio-allure-reporter": "^0.1.2",
+    "wdio-devtools-service": "^0.1.0",
+    "wdio-dot-reporter": "0.0.9",
+    "wdio-mocha-framework": "^0.5.12",
+    "wdio-spec-reporter": "^0.1.3",
+    "webdriverio": "^4.9.11"
+  }
+}
