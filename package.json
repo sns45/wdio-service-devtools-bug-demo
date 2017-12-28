@@ -4,7 +4,9 @@
   "description": "demo bug",
   "main": "index.js",
   "scripts": {
-    "test": "wdio"
+    "wdio": "./node_modules/.bin/wdio ./wdio.conf.js",
+    "cleanmac": "rm -rf allure-results",
+    "cleanpc": "rmdir allure-results /s /q && rmdir errorShots /s /q"
   },
   "repository": {
     "type": "git",
